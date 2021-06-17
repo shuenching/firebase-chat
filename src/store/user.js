@@ -24,7 +24,7 @@ const user = {
           .catch((error) => {
             console.log(error.code);
             console.log(error.message);
-            // reject(error.message);
+            reject(error.message);
           });
       });
     },
@@ -42,6 +42,7 @@ const user = {
           .catch((error) => {
             console.log(error.code);
             console.log(error.message);
+            reject(error.message);
           });
       });
     },
@@ -56,6 +57,7 @@ const user = {
           .catch((error) => {
             console.log(error.code);
             console.log(error.message);
+            reject(error.message);
           });
       });
     }
